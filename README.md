@@ -30,9 +30,11 @@ Schneider et al. (2021) : <https://github.com/cvjena/chiasmus-detector>
 
 This original work can be cited as follow:
 
-```@mastersthesis{meyer2023_chiasmi,
+```
+@mastersthesis{meyer2023_chiasmi,
   author={Yohan Meyer},
   title={Application of comprehensive and responsible Machine Learning methods to the detection of chiasmi's rhetorical salience},
   school={University of Passau \& INSA Lyon},
   year={2023}
 }
+```
