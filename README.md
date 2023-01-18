@@ -23,8 +23,7 @@ For more information about the data, features and models, please refer to the th
 This work was directly inspired by the work of Dubremetz and Nivre (2017) and Schneider et al. (2021).
 You can find their projects and references at the following links:
 
-Dubremetz and Nivre (2017) : <https://github.com/mardub1635/chiasmusDetector>
-
+Dubremetz and Nivre (2017) : <https://github.com/mardub1635/chiasmusDetector>  
 Schneider et al. (2021) : <https://github.com/cvjena/chiasmus-detector>
 
 # Citation
@@ -36,4 +35,4 @@ This original work can be cited as follow:
   title={Application of comprehensive and responsible Machine Learning methods to the detection of chiasmi's rhetorical salience},
   school={University of Passau \& INSA Lyon},
   year={2023}
-}```
+}
