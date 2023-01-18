@@ -1,17 +1,20 @@
 # Context
 
-This repository contains Yohan Meyer's work concerning antimetabole detection for his master's thesis.
+This repository contains Yohan Meyer's work concerning antimetabole detection for his master's thesis.  
 This work completes the chiasmi extraction pipeline developed together with Guillaume Berthomet that you can find here: <https://github.com/YohanMeyer/ChiasmusData>
 
 You can also find Guillaume's own antimetabole detector here: <https://github.com/Dironiil/AntimetaboleDetectionModels>
 
 # How-to
 
-The main detection script is `antimetabole-rating.py`, which should be run in the `rating-src` environment. Some examples about how to use the `AntimetaboleRatingEngine` class are given in the same file.
+The main detection script is `antimetabole-rating.py`, which should be run in the `rating-src` environment. Some examples about how to use the `AntimetaboleRatingEngine` class are given in the same file.  
 All requirements for this project can be found in the `requirements.txt` file and can be installed with `pip install -r requirements.txt` or `conda install --file requirements.txt`.
 
-Some features require the English fastText models. You can download it at the following link: <https://dl.fbaipublicfiles.com/fasttext/vectors-wiki/wiki.de.zip>
+Some features require the English fastText models. You can download it at the following link: <https://dl.fbaipublicfiles.com/fasttext/vectors-wiki/wiki.de.zip>  
 Unzip it and put the `fasttext_models/wiki.en.bin` file in the `fasttext_models` folder.
+
+The data retrieved and used for this project can be found here: <https://github.com/YohanMeyer/AntimetaboleDataset>  
+Download it and put the files in the `data` folder.
 
 For more information about the data, features and models, please refer to the thesis.
 
