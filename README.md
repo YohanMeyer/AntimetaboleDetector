@@ -1,7 +1,7 @@
 # Context
 
 This repository contains Yohan Meyer's work concerning antimetabole detection for his master's thesis.  
-This work completes the chiasmi extraction pipeline developed together with Guillaume Berthomet that you can find here: <https://github.com/YohanMeyer/ChiasmusData>
+This work completes the chiasmi extraction pipeline developed together with Guillaume Berthomet that you can find here: <https://github.com/YohanMeyer/ChiasmusExtractor>
 
 You can also find Guillaume's own antimetabole detector here: <https://github.com/Dironiil/AntimetaboleDetectionModels>
 
@@ -13,10 +13,13 @@ All requirements for this project can be found in the `requirements.txt` file an
 Some features require the English fastText models. You can download it at the following link: <https://dl.fbaipublicfiles.com/fasttext/vectors-wiki/wiki.de.zip>  
 Unzip it and put the `fasttext_models/wiki.en.bin` file in the `fasttext_models` folder.
 
-The data retrieved and used for this project can be found here: <https://github.com/YohanMeyer/AntimetaboleDataset>  
-Download it and put the files in the `data` folder.
+For more information about the features and models, please refer to the thesis.
 
-For more information about the data, features and models, please refer to the thesis.
+# Origin of the data
+
+These antimetabole were retrieved from the book "Never let a fool kiss you or a kiss fool you" by Dr. Mardy Grothe and from diverse websites. Some non-salient instances were extracted from a subset of the [COCA](https://www.english-corpora.org/coca/) dataset.
+
+This data was gathered by Diana Nurbakova, Guillaume Berthomet and Yohan Meyer with the help of Jelena Mitrović and Ramona Kühn.
 
 # Credits
 
@@ -28,8 +31,7 @@ Schneider et al. (2021) : <https://github.com/cvjena/chiasmus-detector>
 
 # Citation
 
-This original work can be cited as follow:
-
+This original work can be cited as follows:
 ```
 @mastersthesis{meyer2023_chiasmi,
   author={Yohan Meyer},
