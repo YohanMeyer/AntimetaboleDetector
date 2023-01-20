@@ -1162,8 +1162,7 @@ class AntimetaboleRatingEngine:
     def pipeline_k_fold(self, trainingFile, trainingFolder = "data"):
         
         print("Undergoing model k-fold training...")
-        print(trainingFile)
-        print(trainingFolder)
+        
         data = self.get_file_jsonlines(trainingFile, trainingFolder)
         if data == -1:
             print("Training aborted.")
